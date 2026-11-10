@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>智光计算 · Meow Optics</title>
+<meta name="description" content="小黑喵智光计算 Android 版：本地光学手册 + 公式计算器 + 可自扩展的 AI 助手。">
+<style>
+:root{--bg:#0E1116;--panel:rgba(255,255,255,.055);--line:rgba(255,255,255,.10);--text:#E8EDF6;--text2:#93A0B4;--accent:#3BE6C8;--accent2:#7EA5FF}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;min-height:100vh;background:
+  radial-gradient(900px 600px at 15% -10%,rgba(59,230,200,.16),transparent 60%),
+  radial-gradient(800px 500px at 90% 0%,rgba(126,165,255,.16),transparent 60%),var(--bg);
+  color:var(--text);font:16px/1.65 -apple-system,"PingFang SC","MiSans","Noto Sans CJK SC",system-ui,sans-serif;
+  display:flex;justify-content:center;padding:56px 20px}
+.wrap{width:100%;max-width:720px}
+h1{font-size:34px;line-height:1.25;margin:0 0 10px;letter-spacing:.5px}
+.sub{color:var(--text2);font-size:14px;margin-bottom:28px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;backdrop-filter:blur(14px);margin-bottom:18px}
+.dl{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:12px;text-decoration:none;
+  background:linear-gradient(90deg,var(--accent2),var(--accent));color:#06202a;font-weight:700;font-size:15px}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text);font-weight:500}
+.meta{color:var(--text3,#6C7889);font-size:13px;color:var(--text2);margin-top:12px}
+h2{font-size:15px;margin:0 0 12px;color:var(--accent);font-weight:600;letter-spacing:.4px}
+ul{margin:0;padding-left:20px;color:var(--text2);font-size:14.5px}
+li{margin:6px 0}
+li b{color:var(--text);font-weight:600}
+code{background:rgba(255,255,255,.07);padding:2px 7px;border-radius:6px;font-size:13px}
+.foot{color:var(--text2);font-size:13px;margin-top:26px}
+@media(max-width:520px){body{padding:32px 16px}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>智光计算 · Meow Optics</h1>
+  <div class="sub">小黑喵工作室 · 把小程序搬进手机的版本 · v1.1</div>
+
+  <div class="panel">
+    <div class="dl">
+      <a class="btn" href="https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk">下载 APK</a>
+      <a class="btn ghost" href="https://github.com/Alice-P197/meow-optics">源码与更新记录</a>
+    </div>
+    <div class="meta">Android 8.0 及以上 · 约 454 KB · 安装包签名固定，可覆盖升级</div>
+  </div>
+
+  <div class="panel">
+    <h2>装完能干什么</h2>
+    <ul>
+      <li><b>接自己的大模型</b>：DeepSeek、方舟、Kimi、智谱、通义、硅基流动、OpenRouter、OpenAI、Anthropic、Gemini、Ollama、自定义网关，一键拉最新模型列表</li>
+      <li><b>Key 自动加密</b>：存进 AndroidKeyStore 的 AES-256-GCM，磁盘只有密文，界面只显示后四位</li>
+      <li><b>对话驱动检索</b>：回答光学问题前先查本地手册，没查到会明说是模型知识</li>
+      <li><b>公式计算器</b>：按类别分组、参数带单位、公式离线渲染</li>
+      <li><b>会自己长大</b>：对话里能让助手把概念存进手册、把公式做成计算器</li>
+      <li><b>应用内更新</b>：设置里填一次清单地址，之后自己查新版本并下载安装</li>
+    </ul>
+  </div>
+
+  <div class="panel">
+    <h2>安装三步</h2>
+    <ul>
+      <li>点上面的按钮下载，传到手机（或手机直接打开本页下载）</li>
+      <li>点开安装包，提示「未知来源」时允许文件管理器安装</li>
+      <li>首启进引导页：填一个服务商的 API Key，按需开悬浮窗／通知／电池无限制／自启动</li>
+    </ul>
+    <div class="meta">自动更新清单：<code>https://alice-p197.github.io/meow-optics/update.json</code>，粘到设置页「版本与更新」里即可。</div>
+  </div>
+
+  <div class="foot">© 小黑喵工作室 · 仓库公开用于分发与后续开发</div>
+</div>
+</body>
+</html>
