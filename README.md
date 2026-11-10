@@ -7,6 +7,15 @@
 - 包名：`com.xiaoheimiao.meowoptics`
 - 安装包：见 [Releases](https://github.com/Alice-P197/meow-optics/releases/latest)
 
+## 仓库结构
+
+```
+miniprogram/      微信小程序源码（光学工坊：计算器 + 手册 + 规则式助手），可直接导入微信开发者工具
+index.html        下载页（GitHub Pages 托管）
+update.json       应用内更新清单（Android 版检查新版本用）
+```
+
+小程序源码见 [miniprogram/](miniprogram/)，导入说明、数据字段、怎么加计算器/词条都写在 [miniprogram/README.md](miniprogram/README.md)。
 ## 能做什么
 
 **对话**
