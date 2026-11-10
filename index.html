@@ -185,24 +185,6 @@ h1 .tone{color:var(--teal)}
 .field span{font-family:var(--mono);font-size:11px;color:var(--teal)}
 .field p{margin:0;font-size:12px;color:var(--ink-3);line-height:1.65}
 
-/* ============ 小程序 ============ */
-.mp{margin-top:20px;display:grid;gap:0}
-.mp-text p{margin:0;font-size:13.5px;color:var(--ink-2);line-height:1.85;max-width:62ch}
-.mp-link{display:grid;grid-template-columns:1fr auto;gap:10px;margin-top:14px;padding:14px;border:1px solid var(--line);border-radius:5px;background:var(--bg-2);align-items:center}
-.mp-link code{font-family:var(--mono);font-size:11.5px;color:var(--ink-2);word-break:break-all;line-height:1.6}
-.mp-link a{display:inline-flex;align-items:center;height:38px;padding:0 13px;border-radius:4px;border:1px solid var(--line);text-decoration:none;font-size:12.5px;color:var(--ink-2);white-space:nowrap}
-.mp-link a:hover{color:var(--ink);border-color:#33414F}
-
-.cmp{margin-top:22px;width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px}
-.cmp col:nth-child(1){width:44%}
-.cmp col:nth-child(2){width:28%}
-.cmp col:nth-child(3){width:28%}
-.cmp thead th{text-align:left;font-weight:600;font-size:12px;color:var(--ink-3);padding:0 10px 9px 0;border-bottom:1px solid var(--line)}
-.cmp tbody td{padding:10px 10px 10px 0;border-bottom:1px solid var(--line-soft);color:var(--ink-2);line-height:1.6;vertical-align:top}
-.cmp tbody td:first-child{color:var(--ink)}
-.cmp .yes{color:var(--teal);font-family:var(--mono);font-size:11.5px}
-.cmp .no{color:var(--ink-3);font-family:var(--mono);font-size:11.5px}
-
 /* ============ FAQ ============ */
 .faq{margin-top:20px}
 .faq details{border-top:1px solid var(--line-soft);padding:0}
@@ -243,7 +225,6 @@ h1 .tone{color:var(--teal)}
       <a href="#feature">功能</a>
       <a href="#ui">界面</a>
       <a href="#download">下载</a>
-      <a href="#miniprogram">小程序版</a>
       <a href="#faq">常见问题</a>
     </div>
     <a class="top-cta" href="https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk">下载安装包</a>
@@ -260,7 +241,7 @@ h1 .tone{color:var(--teal)}
       <p class="lede">一部能查的光学手册，一台会算的助手。词条、公式、对话装进一个安装包，<strong>离线可查，接你自己的大模型</strong>。</p>
       <div class="cta-row">
         <a class="btn-main" href="https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk">下载安装包 <small>465 KB</small></a>
-        <a class="btn-ghost" href="#miniprogram">看看小程序版</a>
+        <a class="btn-ghost" href="#feature">先看功能</a>
       </div>
       <dl class="spec">
         <div><dt>系统要求</dt><dd>Android 8.0+</dd></div>
@@ -419,7 +400,7 @@ h1 .tone{color:var(--teal)}
     </div>
 
     <div class="note">
-      <b>关于名字：</b>这一版装完在桌面显示的是「智光计算」，与小程序同名。改名要重新打包签名，等云电脑上重出一版再统一成「光学宝典」，功能完全一致。
+      <b>关于名字：</b>这一版装完在桌面显示的是「智光计算」。改名要重新打包签名，等云电脑上重出一版再统一成「光学宝典」，功能完全一致。
     </div>
   </section>
 
@@ -446,47 +427,10 @@ h1 .tone{color:var(--teal)}
     </div>
   </section>
 
-  <!-- ===== 小程序版 ===== -->
-  <section class="sec" id="miniprogram">
-    <div class="sec-head">
-      <span class="eyebrow">05</span>
-      <h2>小程序版</h2>
-      <p>微信小程序「智光计算」是这一版手机的底座，纯离线、不带模型。</p>
-    </div>
-
-    <div class="mp">
-      <div class="mp-text">
-        <p>小程序里已经有全套手册词条与公式计算器，助手是规则式的：靠关键词打分和意图规则调度计算器，不联网，也不要 Key。安卓版把同一套数据搬进系统，才补上流式对话、密钥加密、应用内更新这些手机端才成立的能力。</p>
-        <p>如果你想要的是「不联网、打开就能查」的轻量版本，小程序够用；想让它答任意问题、自己往手册里补词条，用安卓版。</p>
-      </div>
-    </div>
-
-    <table class="cmp">
-      <colgroup><col><col><col></colgroup>
-      <thead>
-        <tr><th>能力</th><th>安卓版</th><th>小程序版</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>光学手册（离线词条）</td><td class="yes">有</td><td class="yes">有</td></tr>
-        <tr><td>公式计算器</td><td class="yes">有</td><td class="yes">有</td></tr>
-        <tr><td>大模型对话</td><td class="yes">有</td><td class="no">规则式</td></tr>
-        <tr><td>对话驱动检索</td><td class="yes">有</td><td class="no">关键词</td></tr>
-        <tr><td>自我扩展内核</td><td class="yes">有</td><td class="no">无</td></tr>
-        <tr><td>主题与称呼可配置</td><td class="yes">三档</td><td class="no">无</td></tr>
-        <tr><td>更新方式</td><td class="yes">应用内</td><td class="no">微信审核</td></tr>
-      </tbody>
-    </table>
-
-    <div class="mp-link">
-      <code>github.com/Alice-P197/meow-optics-miniprogram</code>
-      <a href="https://github.com/Alice-P197/meow-optics-miniprogram">打开源码仓库</a>
-    </div>
-  </section>
-
   <!-- ===== FAQ ===== -->
   <section class="sec" id="faq">
     <div class="sec-head">
-      <span class="eyebrow">06</span>
+      <span class="eyebrow">05</span>
       <h2>常见问题</h2>
     </div>
     <div class="faq">
@@ -502,14 +446,13 @@ h1 .tone{color:var(--teal)}
         <summary>换手机后旧 Key 还能恢复吗</summary>
         <p>不能，重新填一个。密文绑定在原机的 AndroidKeyStore 上，新机解不开——这是加密设计的一部分，不是故障。</p>
       </details>
-      </details>
       <details>
         <summary>为什么装完桌面显示的是「智光计算」</summary>
-        <p>这一版的构建 label 沿用了小程序名。改名要重新打包并用同一把 key 签名，等云电脑上重出一版会统一成「光学宝典」。</p>
+        <p>这一版的构建 label 还是旧名字。改名要重新打包并用同一把 key 签名，等云电脑上重出一版会统一成「光学宝典」。</p>
       </details>
       <details>
         <summary>怎么往手册里加自己的内容</summary>
-        <p>两种：在对话里让助手加，它会调用内核的加词条工具，写完立刻能检索到；或者直接改数据文件重打包，数据结构见小程序仓库的 README。</p>
+        <p>两种：在对话里让助手加，它会调用内核的加词条工具，写完立刻能检索到；或者直接改应用内的数据文件重打包。</p>
       </details>
       <details>
         <summary>支持哪些模型</summary>
@@ -529,7 +472,6 @@ h1 .tone{color:var(--teal)}
     <nav>
       <a href="https://github.com/Alice-P197/meow-optics">本仓库</a>
       <a href="https://github.com/Alice-P197/meow-optics/releases">版本记录</a>
-      <a href="https://github.com/Alice-P197/meow-optics-miniprogram">小程序源码</a>
       <a href="https://alice-p197.github.io/meow-optics/update.json">更新清单</a>
     </nav>
     <div class="sig">自带 Key，不上传对话内容；手册与计算器完全离线。</div>

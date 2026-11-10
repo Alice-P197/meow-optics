@@ -1,28 +1,19 @@
-# 构建产物
-*.apk
-*.aab
+﻿.apk
+.aab
 build/
-app/build/
 .gradle/
 local.properties
-
-# 签名材料，永远不要进仓库
 *.jks
-*.keystore
 keystore/
-*.p12
-
-# 依赖与临时文件
 node_modules/
 tools/verify/out/
-tools/verify/_verify/
-.publish/
-*.log
-.DS_Store
-Thumbs.db
-# 临时日志
+
+# 临时文件
 _*.txt
 _*.log
-
+_*.html
+_*.json
+_*.py
+_*.out
 _backup/
-_dl.py
+.dl.py
