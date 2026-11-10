@@ -1,7 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
+  "versionCode": 3,
+  "versionName": "1.2",
   "url": "https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk",
-  "size": 465255,
-  "notes": "1.1：对话里可自扩展词条与计算器；应用内检查更新；称呼可配置，主题支持深色/浅色/跟随系统。"
+  "size": 548747,
+  "notes": "1.2：接入完整光学数据（27 个计算器、6 类 26 篇词条），应用名改为「光学宝典」，结果区保留提示与多段说明。"
 }
