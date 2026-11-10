@@ -1,11 +1,10 @@
 ﻿# 光学宝典 · 官网与安卓版
 
-小黑喵工作室的手机端光学手册。小程序版是底座，这个仓库只放**官网/落地页**和**安卓安装包的分发**。
+小黑喵工作室的手机端光学手册。这个仓库只放**官网/落地页**与**安卓安装包的分发**，应用源码不在这里。
 
 - 官网（GitHub Pages）：https://alice-p197.github.io/meow-optics/
 - 下载最新安装包：https://github.com/Alice-P197/meow-optics/releases/latest
 - 更新清单：https://alice-p197.github.io/meow-optics/update.json
-- 小程序源码（另一个仓库）：https://github.com/Alice-P197/meow-optics-miniprogram
 
 ## 仓库内容
 
