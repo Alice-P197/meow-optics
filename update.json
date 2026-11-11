@@ -1,7 +1,8 @@
 {
-  "versionCode": 3,
-  "versionName": "1.2",
+  "versionCode": 32,
+  "versionName": "1.4",
   "url": "https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk",
-  "size": 548747,
-  "notes": "1.2：接入完整光学数据（27 个计算器、6 类 26 篇词条），应用名改为「光学宝典」，结果区保留提示与多段说明。"
+  "size": 53342512,
+  "sha256": "83ebcfe8ce16f141371c691e64f5adde26ef7328f412ca8d100cbb95f285c690",
+  "notes": "1.4 / 32：对话空态增加 12 个可直接点的例子；键盘弹出按 IME 高度重排，输入框不被遮挡、内容贴底；历史会话先写本机归档再写原生 SQLite，修复首条消息不建 session 行，并自动恢复旧孤儿消息。镜头设计页支持 20 种像质分析、2D 追迹缩放/平移、自定义逐面结构、公差敏感度和 9 种优化器。"
 }
