@@ -222,6 +222,10 @@ h1 .tone{color:var(--teal)}
 .row h3{margin:0;font-size:calc(var(--fs-body) + .5px);font-weight:600;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;line-height:1.5}
 .row h3 em{font-style:normal;font-family:var(--mono);font-size:var(--fs-xs);color:var(--teal);border:1px solid rgba(59,230,200,.24);border-radius:3px;padding:0 4px;line-height:1.7}
 .row p{margin:6px 0 0;font-size:var(--fs-sm);color:var(--ink-2);line-height:1.78;max-width:62ch}
+@media(max-width:919px){
+  /* 三块内容在窄屏只有两列，段落必须跨满整行，否则会掉进 30px 图标列里竖着排 */
+  .row p{grid-column:1/-1}
+}
 @media(min-width:920px){
   .row{grid-template-columns:34px minmax(170px,215px) minmax(0,1fr);gap:20px;align-items:baseline}
   .row-ico{margin-top:0}
