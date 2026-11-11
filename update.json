@@ -1,8 +1,8 @@
 {
-  "versionCode": 32,
-  "versionName": "1.4",
-  "url": "https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk",
-  "size": 53342512,
-  "sha256": "83ebcfe8ce16f141371c691e64f5adde26ef7328f412ca8d100cbb95f285c690",
-  "notes": "1.4 / 32：对话空态增加 12 个可直接点的例子；键盘弹出按 IME 高度重排，输入框不被遮挡、内容贴底；历史会话先写本机归档再写原生 SQLite，修复首条消息不建 session 行，并自动恢复旧孤儿消息。镜头设计页支持 20 种像质分析、2D 追迹缩放/平移、自定义逐面结构、公差敏感度和 9 种优化器。"
+    "versionCode":  42,
+    "versionName":  "1.5.8",
+    "url":  "https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk",
+    "size":  54041971,
+    "sha256":  "8d51c0bc6f086fca8c851641b5a542c072ee105dcc2b4e915486fc43cf8a2589",
+    "notes":  "1.5.8 / 42：文件互通。微信或文件管理器可直接把 .zmx、Code V .seq、Oslo .len、Optiland .json、PDF、HTML 用「光学宝典」打开；导入后可继续追迹，并原样导出 .zmx/.len/.json，经系统分享面板发回微信。新增 Token 策略（省 Token / 均衡 / 全量 / 不限），按问题动态选工具、压缩工具说明、控制上下文长度。"
 }

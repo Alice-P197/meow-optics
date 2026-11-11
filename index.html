@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>光学宝典 · 小黑喵工作室</title>
-<meta name="description" content="光学宝典是小黑喵工作室的手机端光学手册：内置词条与公式计算器，接自己的大模型 API Key，对话里直接查手册、算参数。安卓版 50.9 MB，内置完整光学数据，离线可查。">
+<meta name="description" content="光学宝典是小黑喵工作室的手机端光学手册：内置词条与公式计算器，接自己的大模型 API Key，对话里直接查手册、算参数。安卓版 51.5 MB，内置完整光学数据与 Optiland 镜头设计，离线可查，文件和微信直接互通。">
 <meta name="theme-color" content="#080B10">
 <meta property="og:title" content="光学宝典 · 小黑喵工作室">
-<meta property="og:description" content="一部能查的光学手册，一台会算的助手。安卓版 50.9 MB，离线可查，接你自己的大模型。">
+<meta property="og:description" content="一部能查的光学手册，一台会算的助手。安卓版 51.5 MB，离线可查，接你自己的大模型，文件也能和微信互通。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23080B10'/%3E%3Cg fill='none' stroke='%233BE6C8' stroke-width='1.6'%3E%3Ccircle cx='16' cy='16' r='8.5'/%3E%3Cpath d='M16 7.5 21 20M23.4 21 9.6 11'/%3E%3C/g%3E%3C/svg%3E">
 <style>
 :root{
@@ -346,7 +346,7 @@ h1 .tone{color:var(--teal)}
       </svg>
       <b>光学宝典</b>
     </div>
-    <span class="ver">v1.4</span>
+    <span class="ver">v1.5.8</span>
     <div class="top-links">
       <a href="#feature">功能</a>
       <a href="#ui">界面</a>
@@ -362,11 +362,11 @@ h1 .tone{color:var(--teal)}
   <!-- ===== 首屏 ===== -->
   <section class="hero">
     <div class="hero-copy">
-      <div class="kicker"><i></i>安卓版 v1.4 · 50.9 MB</div>
+      <div class="kicker"><i></i>安卓版 v1.5.8 · 51.5 MB</div>
       <h1>光学<span class="tone">宝典</span></h1>
-      <p class="lede">一部能查的光学手册，一台会算的助手。词条、公式、对话装进一个安装包，<strong>离线可查，接你自己的大模型</strong>。</p>
+      <p class="lede">一部能查的光学手册，一台会算的助手。词条、公式、对话、镜头装进一个安装包，<strong>离线可查，接你自己的大模型</strong>；文件还能和微信直接互通。</p>
       <div class="cta-row">
-        <a class="btn-main" href="https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk">下载安装包 <small>50.9 MB</small></a>
+        <a class="btn-main" href="https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk">下载安装包 <small>51.5 MB</small></a>
         <a class="btn-ghost" href="#feature">先看功能</a>
       </div>
       <dl class="spec">
@@ -418,7 +418,7 @@ h1 .tone{color:var(--teal)}
     <div class="sec-head">
       <span class="eyebrow">01</span>
       <h2>装完能做什么</h2>
-      <p>六件事都在这一个包里，不依赖常驻服务器。</p>
+      <p>九件事都在这一个包里，不依赖常驻服务器。</p>
     </div>
     <div class="rows glass">
 
@@ -446,7 +446,24 @@ h1 .tone{color:var(--teal)}
         <p>每个计算器带自己的算法，按类别分组，参数带单位，输入即出数值与依据。公式离线渲染，断网也能看。</p>
       </div>
 
+            <div class="row">
+        <svg class="row-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><ellipse cx="12" cy="12" rx="9" ry="4.5"/><path d="M3 12h18M7.2 9.2l5.5 5.6M16.8 9.2l-5.5 5.6"/></svg>
+        <h3>镜头设计与追迹 <em>Optiland 0.6.3</em></h3>
+        <p>内置 Optiland，离线建系、追迹、像质分析、优化与公差。多重结构、光线瞄准、偏振、镀膜、非顺序、相位、散射、切趾这些进阶能力也在同一个包里，不靠云端算。</p>
+      </div>
+
       <div class="row">
+        <svg class="row-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7.5h9v9H4z"/><path d="M13 10.5h7v6h-7z"/><path d="M6.5 5.2l7 13.6"/></svg>
+        <h3>文件互通 <em>微信 ↔ 应用</em></h3>
+        <p>微信收到 .zmx、Code V .seq、Oslo .len、Optiland .json，选「用其他应用打开」就能进应用；导入后继续追迹，再原样导出 Zemax、Code V、Oslo 或 Optiland JSON，经系统分享面板发回微信。PDF、HTML 也走同一套。</p>
+      </div>
+
+      <div class="row">
+        <svg class="row-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 6.5h14v11H5z"/><path d="M8 10h8M8 13.5h5"/><path d="M4 4.5l3 2M20 4.5l-3 2"/></svg>
+        <h3>Token 策略 <em>四档</em></h3>
+        <p>省 Token、均衡、全量、不限四档。省 Token 按当前问题挑工具、压缩工具参数说明、缩短历史；全量保留完整工具定义。不用每轮把三十多个工具全发一遍。</p>
+      </div>
+<div class="row">
         <svg class="row-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke-opacity=".45"/><path d="M12 4v16M4 12h16"/></svg>
         <h3>自我扩展 <em>ext.js</em></h3>
         <p>内核里挂两个工具：往手册加词条、往计算器表加算法。助手判定缺知识时自己补，写完运行时立刻生效，不必等下一个版本。</p>
@@ -496,15 +513,15 @@ h1 .tone{color:var(--teal)}
       <div class="dl-head">
         <div class="t">
           <h3>光学宝典 安卓版</h3>
-          <span class="tag">versionCode 32</span>
-          <span class="tag">50.9 MB</span>
+          <span class="tag">versionCode 42</span>
+          <span class="tag">51.5 MB</span>
         </div>
         <p>单文件安装包，直连 GitHub Release 的最新版；链接不会随版本号变化。</p>
         <a class="dl-btn" href="https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk">下载 MeowOptics.apk</a>
       </div>
       <dl class="dl-meta">
-        <div><dt>版本</dt><dd>1.4 / versionCode 32</dd></div>
-        <div><dt>大小</dt><dd>53342512 字节（约 50.9 MB）</dd></div>
+        <div><dt>版本</dt><dd>1.5.8 / versionCode 42</dd></div>
+        <div><dt>大小</dt><dd>54041971 字节（约 51.5 MB）</dd></div>
         <div><dt>包名</dt><dd>com.xiaoheimiao.meowoptics</dd></div>
         <div><dt>系统</dt><dd>Android 8.0 及以上</dd></div>
         <div><dt>签名</dt><dd>CN=XiaoHeiMiao Studio, OU=Meow Optics, O=XiaoHeiMiao, L=Hefei, ST=Anhui, C=CN</dd></div>
@@ -537,7 +554,7 @@ h1 .tone{color:var(--teal)}
     </div>
 
     <div class="note">
-      <b>关于这一版：</b>桌面名称已改成「光学宝典」，包内换上了完整的光学数据；从 1.1 覆盖安装，Key、历史与记忆都会保留。
+      <b>关于这一版：</b>1.5.8 把文件链路补齐。微信里的 .zmx 可直接用「光学宝典」打开，导入后继续追迹，再转成 Optiland JSON、Code V .seq、Oslo .len 或重新导出 .zmx，经系统分享面板发回微信；PDF、HTML 同样能收发。新增 Token 策略，省 Token 模式会按当前问题挑工具。
     </div>
   </section>
 
@@ -603,7 +620,7 @@ h1 .tone{color:var(--teal)}
   <div class="foot-in">
     <h4>小黑喵工作室</h4>
     <div class="ids">
-      com.xiaoheimiao.meowoptics · versionCode 32 · versionName 1.4<br>
+      com.xiaoheimiao.meowoptics · versionCode 42 · versionName 1.5.8<br>
       CN=XiaoHeiMiao Studio, OU=Meow Optics, O=XiaoHeiMiao, L=Hefei, ST=Anhui, C=CN
     </div>
     <nav>
