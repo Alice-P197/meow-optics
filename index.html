@@ -466,13 +466,13 @@ h1 .tone{color:var(--teal)}
       <div class="card">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8.5 11V8a3.5 3.5 0 0 1 7 0v3"/><circle cx="12" cy="15.4" r="1.4"/></svg></div>
         <h3>密钥加密 <em>AES-256-GCM</em></h3>
-        <p>API Key 用 AndroidKeyStore 派生密钥加密后落盘，磁盘上只有密文，界面只露后四位；请求由应用直接发给你选的服务商，不经过中转。密文绑定本机，换机解不开。</p>
+        <p>API Key 用系统密钥库派生的密钥加密后落盘，磁盘上只有密文，界面只露后四位；请求由应用直接发给你选的服务商，不经过中转。密文绑定本机，换机解不开。</p>
       </div>
 
       <div class="card">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h6"/><path d="M17 15l3 3-3 3"/></svg></div>
         <h3>Token 策略 <em>四档</em></h3>
-        <p>省 Token、均衡、全量、不限四档。省 Token 按当前问题挑工具、压缩工具说明、缩短历史；全量保留完整工具定义。不用每轮把几十个工具全发一遍。</p>
+        <p>省 Token、均衡、全量、不限四档。省 Token 只带当前问题要用到的工具与近期历史；全量保留完整定义。日常对话更省用量。</p>
       </div>
 
       <div class="card">
@@ -499,7 +499,7 @@ h1 .tone{color:var(--teal)}
 
     <div class="server-grid">
       <figure class="console" style="margin:0">
-        <img src="assets/shot-console.png" alt="光屿服务端界面：服务状态、已启用模型、在线手机与上手顺序">
+        <img src="assets/shot-console.png" alt="光屿服务端界面：服务状态、已启用模型、在线手机与上手顺序" loading="lazy" decoding="async">
       </figure>
 
       <div>
@@ -533,15 +533,15 @@ h1 .tone{color:var(--teal)}
     </div>
     <div class="shots">
       <figure class="shot">
-        <div class="device"><img src="assets/shot-chat.png" alt="对话页：回答附公式推导与结果"></div>
+        <div class="device"><img src="assets/shot-chat.png" alt="对话页：回答附公式推导与结果" loading="lazy" decoding="async"></div>
         <figcaption>对话：推导、数值与依据在同一屏</figcaption>
       </figure>
       <figure class="shot">
-        <div class="device"><img src="assets/shot-chat-dark.png" alt="对话页深色主题"></div>
+        <div class="device"><img src="assets/shot-chat-dark.png" alt="对话页深色主题" loading="lazy" decoding="async"></div>
         <figcaption>深色主题：选中态与浮层同步换色</figcaption>
       </figure>
       <figure class="shot">
-        <div class="device"><img src="assets/shot-calc.png" alt="计算器详情页：输入参数后给出行解"></div>
+        <div class="device"><img src="assets/shot-calc.png" alt="计算器详情页：输入参数后给出行解" loading="lazy" decoding="async"></div>
         <figcaption>计算器：改参数即时重算，结果分行列出</figcaption>
       </figure>
     </div>
@@ -618,7 +618,7 @@ h1 .tone{color:var(--teal)}
     </div>
 
     <div class="note">
-      <b>关于这一版：</b>2.0.0-test.64 重排底部输入区与主题。模型、思考、联网、技能四个胶囊在窄屏下自动收窄，发送按钮不再被挤出屏幕；思考与联网选中态改为淡蓝底，技能与模型浮层跟随深浅主题；任务进度卡可拖到任意一边并记住位置。系统层对明文与跨域的拦截一并放开，请求不再退化为同步桥；手册、技能、计算器三处列表改为分页渲染。
+      <b>关于这一版：</b>2.0.0-test.64 重排底部输入区与主题。模型、思考、联网、技能四个胶囊在窄屏下自动收窄，发送按钮常驻；思考与联网选中态改为淡蓝底，技能与模型浮层跟随深浅主题；任务进度卡可拖到任意一边并记住位置；连光屿服务端时不再卡在等待上；手册、技能、计算器三处列表改为分页渲染。
     </div>
   </section>
 
@@ -666,7 +666,7 @@ h1 .tone{color:var(--teal)}
       </details>
       <details>
         <summary>换手机后旧 Key 还能恢复吗</summary>
-        <p>不能，重新填一个。密文绑定在原机的 AndroidKeyStore 上，新机解不开——这是加密设计的一部分，不是故障。</p>
+        <p>不能，重新填一个。密文绑定在原机的系统密钥库上，新机解不开——这是加密设计的一部分，不是故障。</p>
       </details>
       <details>
         <summary>从 1.5.8 升级要注意什么</summary>
@@ -674,7 +674,7 @@ h1 .tone{color:var(--teal)}
       </details>
       <details>
         <summary>怎么往手册里加自己的内容</summary>
-        <p>两种：在对话里让助手加，它会调用内核的加词条工具，写完立刻能检索；或者改应用内的数据文件后重打包。</p>
+        <p>在对话里让助手加，它会调用内核的加词条工具，写完立刻能检索，不用等下一个版本。</p>
       </details>
       <details>
         <summary>支持哪些模型</summary>
