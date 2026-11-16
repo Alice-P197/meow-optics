@@ -1,4 +1,4 @@
-﻿# 光学宝典 · 官网与安卓版
+# 光学宝典 · 官网与安卓版
 
 小黑喵工作室的手机端光学手册。这个仓库只放**官网/落地页**与**安卓安装包的分发**，应用源码不在这里。
 
@@ -17,8 +17,8 @@ update.json   应用内更新清单
 ## 发新版本的流程
 
 1. 打出新的 APK，改 `versionCode`（必须递增）与 `versionName`
-2. 新建 Release，资产名固定为 `MeowOptics.apk`（`latest/download/MeowOptics.apk` 这个链接才不会失效）
-3. 更新 `update.json` 里的 `versionCode` / `versionName` / `url` / `size`，推送
-4. 已安装的用户下次启动就会收到提示，点一下即覆盖安装（签名固定，不丢数据）
+2. 在 `Alice-P197/Meow-optics-V2` 新建 Release，上传 APK 与 `Guangyu-Server.exe``n3. 更新 `update.json` 的 `versionCode` / `versionName` / `url` / `size` / `sha256`，`url` 填该 tag 下的 APK 直链
+4. 更新 `index.html` 里的版本号、体积、下载按钮与本段说明
+5. 已安装的用户下次启动会收到提示，覆盖安装不丢数据（签名固定）
 
 - 光屿服务端：https://github.com/Alice-P197/Meow-optics-V2/releases/download/v151-test64/Guangyu-Server.exe
