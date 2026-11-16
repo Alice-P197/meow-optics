@@ -1,8 +1,8 @@
 {
-    "versionCode":  42,
-    "versionName":  "1.5.8",
-    "url":  "https://github.com/Alice-P197/meow-optics/releases/latest/download/MeowOptics.apk",
-    "size":  54041971,
-    "sha256":  "8d51c0bc6f086fca8c851641b5a542c072ee105dcc2b4e915486fc43cf8a2589",
-    "notes":  "1.5.8 / 42：文件互通。微信或文件管理器可直接把 .zmx、Code V .seq、Oslo .len、Optiland .json、PDF、HTML 用「光学宝典」打开；导入后可继续追迹，并原样导出 .zmx/.len/.json，经系统分享面板发回微信。新增 Token 策略（省 Token / 均衡 / 全量 / 不限），按问题动态选工具、压缩工具说明、控制上下文长度。"
+    "versionCode":  152,
+    "versionName":  "2.0.0-test.64",
+    "url":  "https://github.com/Alice-P197/Meow-optics-V2/releases/download/v151-test64/MeowOptics-v151-test64.apk",
+    "size":  67500729,
+    "sha256":  "14bbc9395d0bc745137b0961aaa4b2e6c32be5018cd64230e1a11e8b13dd2222",
+    "notes":  "2.0.0-test.64 / 152：底部输入区重排，模型、思考、联网、技能四个胶囊在窄屏下自动收窄，发送按钮不再被挤出屏幕；思考与联网选中态改为淡蓝底，技能与模型浮层跟随深浅主题；任务进度卡可拖到任意一边并记住位置。系统层对明文与跨域的拦截放开，请求不再退化为同步桥；手册、技能、计算器三处列表改为分页渲染。"
 }
