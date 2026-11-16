@@ -20,3 +20,5 @@ update.json   应用内更新清单
 2. 新建 Release，资产名固定为 `MeowOptics.apk`（`latest/download/MeowOptics.apk` 这个链接才不会失效）
 3. 更新 `update.json` 里的 `versionCode` / `versionName` / `url` / `size`，推送
 4. 已安装的用户下次启动就会收到提示，点一下即覆盖安装（签名固定，不丢数据）
+
+- 光屿服务端：https://github.com/Alice-P197/Meow-optics-V2/releases/download/v151-test64/Guangyu-Server.exe
