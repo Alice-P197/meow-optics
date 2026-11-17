@@ -1,8 +1,8 @@
 {
-    "versionCode":  155,
-    "versionName":  "2.0.0-test.67",
-    "url":  "https://github.com/Alice-P197/meow-optics/releases/download/v154-test67/MeowOptics-v154-test67.apk",
-    "size":  67508921,
-    "sha256":  "d1e7dd19a791800aac524917c5ac0982b6159462d97f6513f67f6239cf8304f1",
-    "notes":  "2.0.0-test.67 / 155：手机控制电脑的桌面截图直接显示在对话里；窗口列表、鼠标移动与点击、键盘输入、启动应用、切换前台与结束进程都能直接调用；MATLAB 运行失败时给出原因。任务进度卡不再吸到屏幕顶部，卡片内可以上下滑动查看步骤。对话开头不再长时间停在「思考中」，手机不连电脑也能对话。签名与上一版一致，覆盖安装即可，Key 与对话历史都在。"
+    "versionCode": 156,
+    "versionName": "2.0.0-test.68",
+    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v155-test68/MeowOptics-v155-test68.apk",
+    "size": 67513086,
+    "sha256": "952e7fc1a753caec5d1b8fd22118fe0a7adf2d2b99b04092eea20671dd05e41d",
+    "notes": "2.0.0-test.68：记忆统一到「产物与任务」页，长期与本会话分开管理，可新增、编辑、删除、搜索；设了口令后加密存放，验证口令才能查看，对话里助手也能读写。自定义网关支持 DeepSeek 官方与局域网、Ollama、LM Studio、vLLM/one-api，可填多个模型，流式与思考可开关，保存前能测连通。设置页可读取电脑端光屿已加载的模型并选为对话模型，日常对话仍优先用手机本机模型。首页应用可以固定、取消固定与打开。电脑端截图按图片显示，任务进度卡轻点后不再停在屏幕顶部，卡片内容可以上下滑动。"
 }
