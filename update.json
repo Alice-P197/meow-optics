@@ -1,8 +1,8 @@
 {
-    "versionCode": 159,
-    "versionName": "2.0.0-test.71",
-    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v159-test71/MeowOptics-v159-test71.apk",
+    "versionCode": 160,
+    "versionName": "2.0.0-test.72",
+    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v160-test72/MeowOptics-v160-test72.apk",
     "size": 76069923,
-    "sha256": "1938c809ab22f2e9bdce7d7386284d24e3ad91773366d0539dead0dca265ff2a",
-    "notes": "2.0.0-test.71：Markdown 能画图——代码围栏里写 mermaid 语法即渲染流程图、时序图、甘特图、类图、状态图、ER 图、饼图、思维导图与时间轴；表格加表头底色、斑马纹与横向滚动，代码块带语言标签和复制按钮，引用块与图注统一样式。手册追加、结果图入册与中文图字体沿用上一版。"
+    "sha256": "98fc7a320f968126c40fcb7d7008e8d690e2c85d2c28b8ac6ff521e0c2ec4f21",
+    "notes": "2.0.0-test.72：生成页面预览里的上传与下载修好了——在预览里点页面自己的上传按钮，会走系统选择器并把选中的图片回填进页面；页面里的下载链接和导出图片会直接存到手机。预览改为在 App 内打开，右上角可切页面权限，也能一键转到系统浏览器。电脑端模型连接改成自动匹配地址，连不上时直接提示电脑端需要更新，不再一律报接口不存在。"
 }
