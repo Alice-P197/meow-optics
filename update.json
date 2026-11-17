@@ -1,8 +1,8 @@
 {
-    "versionCode": 153,
-    "versionName": "2.0.0-test.65",
-    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v152-test65/MeowOptics-v152-test65.apk",
-    "size": 67500729,
-    "sha256": "e046cd7656113ec56fd060209cecd11744b941bb199f1e561d9f8d9a1c78c5c1",
-    "notes": "2.0.0-test.65 / 153：修复更新包下载完成后点「安装新版本」没有反应的问题；现在下载完成可直接进入系统安装，无法安装时界面显示失败原因；首次安装更新包需要在系统设置中允许本应用安装未知应用。"
+    "versionCode":  155,
+    "versionName":  "2.0.0-test.67",
+    "url":  "https://github.com/Alice-P197/meow-optics/releases/download/v154-test67/MeowOptics-v154-test67.apk",
+    "size":  67508921,
+    "sha256":  "d1e7dd19a791800aac524917c5ac0982b6159462d97f6513f67f6239cf8304f1",
+    "notes":  "2.0.0-test.67 / 155：手机控制电脑的桌面截图直接显示在对话里；窗口列表、鼠标移动与点击、键盘输入、启动应用、切换前台与结束进程都能直接调用；MATLAB 运行失败时给出原因。任务进度卡不再吸到屏幕顶部，卡片内可以上下滑动查看步骤。对话开头不再长时间停在「思考中」，手机不连电脑也能对话。签名与上一版一致，覆盖安装即可，Key 与对话历史都在。"
 }
