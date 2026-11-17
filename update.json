@@ -1,8 +1,8 @@
 {
-    "versionCode": 158,
-    "versionName": "2.0.0-test.70",
-    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v158-test70/MeowOptics-v158-test70.apk",
-    "size": 75070354,
-    "sha256": "ab109776bbdf8e99a5e6284081d04d387e21fcb50ec68f0e60f5afc15ecf1561",
-    "notes": "2.0.0-test.70：手册补完——画中文不再显示方框；已有词条可直接追加内容，不用删掉重建；运行输出与结果图能一起存进词条；粗体、列表、表格、代码块按原样渲染，长链接与长公式不再超出屏幕；插图地址不可用时给出提示。记忆、应用固定、预览策略、设置页按钮与电脑端模型拉取沿用上一版修复。"
+    "versionCode": 159,
+    "versionName": "2.0.0-test.71",
+    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v159-test71/MeowOptics-v159-test71.apk",
+    "size": 76069923,
+    "sha256": "1938c809ab22f2e9bdce7d7386284d24e3ad91773366d0539dead0dca265ff2a",
+    "notes": "2.0.0-test.71：Markdown 能画图——代码围栏里写 mermaid 语法即渲染流程图、时序图、甘特图、类图、状态图、ER 图、饼图、思维导图与时间轴；表格加表头底色、斑马纹与横向滚动，代码块带语言标签和复制按钮，引用块与图注统一样式。手册追加、结果图入册与中文图字体沿用上一版。"
 }
