@@ -1,8 +1,8 @@
 {
-    "versionCode": 157,
-    "versionName": "2.0.0-test.69",
-    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v157-test69/MeowOptics-v157-test69.apk",
-    "size": 67517256,
-    "sha256": "20420e69579d767f1c24bbe5beb9989b488d5acbdc5b3cf3839087de91c439ce",
-    "notes": "2.0.0-test.69：修了一批点了没反应的地方——设置页的更换头像、显示名、助手名称、主题、提示词、联网参数、权限入口、崩溃日志与检查更新都已可用；记忆未设口令时也会列出已有内容，不再显示为空；固定过的应用可以直接打开，页面内容缺失时自动找回快照；生成页面预览为白底，可选执行策略（隔离 / 联网 / 放开），放开后页面能联网、上传与下载；电脑端模型列表支持多种接口路径，拉取失败自动换路径重试。"
+    "versionCode": 158,
+    "versionName": "2.0.0-test.70",
+    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v158-test70/MeowOptics-v158-test70.apk",
+    "size": 75070354,
+    "sha256": "ab109776bbdf8e99a5e6284081d04d387e21fcb50ec68f0e60f5afc15ecf1561",
+    "notes": "2.0.0-test.70：手册补完——画中文不再显示方框；已有词条可直接追加内容，不用删掉重建；运行输出与结果图能一起存进词条；粗体、列表、表格、代码块按原样渲染，长链接与长公式不再超出屏幕；插图地址不可用时给出提示。记忆、应用固定、预览策略、设置页按钮与电脑端模型拉取沿用上一版修复。"
 }
