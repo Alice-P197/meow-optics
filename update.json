@@ -1,8 +1,8 @@
 {
-    "versionCode": 160,
-    "versionName": "2.0.0-test.72",
-    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v160-test72/MeowOptics-v160-test72.apk",
-    "size": 76069923,
-    "sha256": "98fc7a320f968126c40fcb7d7008e8d690e2c85d2c28b8ac6ff521e0c2ec4f21",
-    "notes": "2.0.0-test.72：生成页面预览里的上传与下载修好了——在预览里点页面自己的上传按钮，会走系统选择器并把选中的图片回填进页面；页面里的下载链接和导出图片会直接存到手机。预览改为在 App 内打开，右上角可切页面权限，也能一键转到系统浏览器。电脑端模型连接改成自动匹配地址，连不上时直接提示电脑端需要更新，不再一律报接口不存在。"
+    "versionCode": 161,
+    "versionName": "2.0.0-test.73",
+    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v161-test73/MeowOptics-v161-test73.apk",
+    "size": 76074019,
+    "sha256": "a299633fd78fb7859f367949eb19e7854efe1d284a42e92843596b74b5caf631",
+    "notes": "2.0.0-test.73：记忆面板与对话使用同一份长期记忆，13 条都在，可逐条改删；产物、任务、记忆卡片分别进各自页面；Markdown 粗体、无空格标题、分隔线恢复；长文本与公式不再溢出；手册支持追加，原文保留，运行结果图可保存显示；设置页头像与权限按钮有明确反馈。"
 }
