@@ -1,8 +1,8 @@
 {
-    "versionCode": 161,
-    "versionName": "2.0.0-test.73",
-    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v161-test73/MeowOptics-v161-test73.apk",
-    "size": 76074019,
-    "sha256": "a299633fd78fb7859f367949eb19e7854efe1d284a42e92843596b74b5caf631",
-    "notes": "2.0.0-test.73：记忆面板与对话使用同一份长期记忆，13 条都在，可逐条改删；产物、任务、记忆卡片分别进各自页面；Markdown 粗体、无空格标题、分隔线恢复；长文本与公式不再溢出；手册支持追加，原文保留，运行结果图可保存显示；设置页头像与权限按钮有明确反馈。"
+    "versionCode": 163,
+    "versionName": "2.0.0-test.75",
+    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v163-test75/MeowOptics-v163-test75.apk",
+    "size": 76078185,
+    "sha256": "81ee8ea58425001d5081058fc2e4b3f8300e459b47bd4d47f577f5bc6b0e9c89",
+    "notes": "2.0.0-test.75：长期记忆与对话共用同一份数据，保存在本机加密存储里，对话每轮可读，界面查看需要口令；手册追加内容时原文保留，运行结果图直接写进词条，不再依赖临时地址；Markdown 的粗体、不带空格的标题与分隔线正常显示；长文本、表格与公式不再顶出卡片；设置页的头像与权限按钮点按有明确反馈；对话消息可逐条复制，导出支持 Markdown、渲染后的 HTML 与链接。"
 }
