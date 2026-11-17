@@ -1,8 +1,8 @@
 {
-    "versionCode": 156,
-    "versionName": "2.0.0-test.68",
-    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v155-test68/MeowOptics-v155-test68.apk",
-    "size": 67513086,
-    "sha256": "952e7fc1a753caec5d1b8fd22118fe0a7adf2d2b99b04092eea20671dd05e41d",
-    "notes": "2.0.0-test.68：记忆统一到「产物与任务」页，长期与本会话分开管理，可新增、编辑、删除、搜索；设了口令后加密存放，验证口令才能查看，对话里助手也能读写。自定义网关支持 DeepSeek 官方与局域网、Ollama、LM Studio、vLLM/one-api，可填多个模型，流式与思考可开关，保存前能测连通。设置页可读取电脑端光屿已加载的模型并选为对话模型，日常对话仍优先用手机本机模型。首页应用可以固定、取消固定与打开。电脑端截图按图片显示，任务进度卡轻点后不再停在屏幕顶部，卡片内容可以上下滑动。"
+    "versionCode": 157,
+    "versionName": "2.0.0-test.69",
+    "url": "https://github.com/Alice-P197/meow-optics/releases/download/v157-test69/MeowOptics-v157-test69.apk",
+    "size": 67517256,
+    "sha256": "20420e69579d767f1c24bbe5beb9989b488d5acbdc5b3cf3839087de91c439ce",
+    "notes": "2.0.0-test.69：修了一批点了没反应的地方——设置页的更换头像、显示名、助手名称、主题、提示词、联网参数、权限入口、崩溃日志与检查更新都已可用；记忆未设口令时也会列出已有内容，不再显示为空；固定过的应用可以直接打开，页面内容缺失时自动找回快照；生成页面预览为白底，可选执行策略（隔离 / 联网 / 放开），放开后页面能联网、上传与下载；电脑端模型列表支持多种接口路径，拉取失败自动换路径重试。"
 }
